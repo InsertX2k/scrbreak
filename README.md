@@ -14,6 +14,9 @@ scrbreak.exe <Session Minutes>
 ```
 `<Session Minutes>` - Is the number of minutes this program will show you a reminder every. (default value is **30**)
 
+# Downloading scrbreak
+Downloads are coming soon.
+
 # FAQ (Frequently Asked Questions)
 * **Q:** I started this program and I can't find any buttons to stop it/How do I stop the timer of this program?
 
@@ -81,5 +84,4 @@ pyinstaller --distpath "scrbreak_x64_distpath" --workpath "scrbreak_x64_workpath
 Be sure to replace all of the following:
 * `<python-installation-dir>` - With the directory where Python is installed in.
 
-# Downloading an already compiled release
-Downloads are coming soon.
+
