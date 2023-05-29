@@ -15,7 +15,7 @@ scrbreak.exe <Session Minutes>
 `<Session Minutes>` - Is the number of minutes this program will show you a reminder every. (default value is **30**)
 
 # Downloading scrbreak
-Downloads are coming soon.
+[Downloads are available here](https://github.com/InsertX2k/scrbreak/releases/latest)
 
 # FAQ (Frequently Asked Questions)
 * **Q:** I started this program and I can't find any buttons to stop it/How do I stop the timer of this program?
