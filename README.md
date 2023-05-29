@@ -14,6 +14,31 @@ scrbreak.exe <Session Minutes>
 ```
 `<Session Minutes>` - Is the number of minutes this program will show you a reminder every. (default value is **30**)
 
+# FAQ (Frequently Asked Questions)
+* **Q:** I started this program and I can't find any buttons to stop it/How do I stop the timer of this program?
+
+  **A:** To stop this program you will need to do that manually via task manager or `taskkill` command (the `taskkill` command is prefered)
+
+  ```bat
+  taskkill /f /im scrbreak.exe
+  ```
+  
+* **Q:** This program doesn't start automatically with windows/I need it to start automatically when I turn my PC on.
+  
+  **A:** You will need to create a shortcut to this program's executable and place it in your **Startup** folder.
+  
+  * Open **Run** (<kbd>Win</kbd>+<kbd>R</kbd>)
+  * Type the following path.
+  
+  ```
+  shell:startup
+  ```
+  
+  * Press **OK** or <kbd>Enter</kbd>
+  * Move the shortcut you recently created to this folder.
+  
+  (There are also more advanced ways to achieve that, but I won't be covering them all, because that would make this a very long document)
+
 # Features
 * Free and Open-Source
 * Written in Python 3
